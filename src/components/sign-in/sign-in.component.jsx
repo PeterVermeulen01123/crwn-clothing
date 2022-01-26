@@ -58,7 +58,10 @@ handleChange = event => {
                         required />
                     <div className="buttons">
                     <CustomButton type="submit" >Sign In</CustomButton>
-                    <CustomButton  onClick={signInWithGoogle} isGoogleSignIn >Sign In With Google</CustomButton>
+                    <CustomButton  onClick={signInWithGoogle} 
+                                    isGoogleSignIn 
+                                    type="button"
+                    >Sign In With Google</CustomButton>
                     </div>
                 
                 </form>
